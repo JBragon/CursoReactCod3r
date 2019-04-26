@@ -10,9 +10,9 @@ import Membro from './componentes/Membro'
 const elemento = document.getElementById('root')
 ReactDOM.render(
     <div>
-        <Familia>
-            <Membro nome="Jordan" sobrenome="Bragon"/>
-            <Membro nome="José" sobrenome="Bragon"/>
+        <Familia sobrenome="Bragon">
+            <Membro nome="Jordan" />
+            {/* <Membro nome="José" /> */}
         </Familia>
     </div>
 , elemento)
