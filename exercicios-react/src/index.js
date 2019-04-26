@@ -7,14 +7,22 @@ import React from 'react'
 //import Familia from './componentes/Familia'
 //import Membro from './componentes/Membro'
 //import ComponenteComFuncao from './componentes/ComponenteComFuncao'
-import Pai from './componentes/Pai'
+//import Pai from './componentes/Pai'
+import CompoenenteClasse from './componentes/ComponenteClasse'
 
 const elemento = document.getElementById('root')
 ReactDOM.render(
     <div>
-        <Pai />
+        <CompoenenteClasse valor="Teste!"/>
     </div>
 , elemento)
+
+// const elemento = document.getElementById('root')
+// ReactDOM.render(
+//     <div>
+//         <Pai />
+//     </div>
+// , elemento)
 
 // const elemento = document.getElementById('root')
 // ReactDOM.render(
