@@ -6,14 +6,22 @@ import React from 'react'
 //import FamiliaSilva from './componentes/FamiliaSilva'
 //import Familia from './componentes/Familia'
 //import Membro from './componentes/Membro'
-import ComponenteComFuncao from './componentes/ComponenteComFuncao'
+//import ComponenteComFuncao from './componentes/ComponenteComFuncao'
+import Pai from './componentes/Pai'
 
 const elemento = document.getElementById('root')
 ReactDOM.render(
     <div>
-        <ComponenteComFuncao />
+        <Pai />
     </div>
 , elemento)
+
+// const elemento = document.getElementById('root')
+// ReactDOM.render(
+//     <div>
+//         <ComponenteComFuncao />
+//     </div>
+// , elemento)
 
 // const elemento = document.getElementById('root')
 // ReactDOM.render(
