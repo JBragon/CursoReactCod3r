@@ -3,14 +3,26 @@ import React from 'react'
 //import MultiElementos from './componentes/MultiElementos'
 //import PrimeiroComponente from './componentes/PrimeiroComponente'
 //import CompA, {CompB} from './componentes/DoisComponentes'
-import FamiliaSilva from './componentes/FamiliaSilva'
+//import FamiliaSilva from './componentes/FamiliaSilva'
+import Familia from './componentes/Familia'
+import Membro from './componentes/Membro'
 
 const elemento = document.getElementById('root')
 ReactDOM.render(
     <div>
-        <FamiliaSilva />
+        <Familia>
+            <Membro nome="Jordan" sobrenome="Bragon"/>
+            <Membro nome="José" sobrenome="Bragon"/>
+        </Familia>
     </div>
 , elemento)
+
+// const elemento = document.getElementById('root')
+// ReactDOM.render(
+//     <div>
+//         <FamiliaSilva />
+//     </div>
+// , elemento)
 
 // ReactDOM.render(
 //     <div>
