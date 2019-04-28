@@ -8,14 +8,21 @@ import React from 'react'
 //import Membro from './componentes/Membro'
 //import ComponenteComFuncao from './componentes/ComponenteComFuncao'
 //import Pai from './componentes/Pai'
-import CompoenenteClasse from './componentes/ComponenteClasse'
+//import CompoenenteClasse from './componentes/ComponenteClasse'
+import Contador from './componentes/Contador'
 
 const elemento = document.getElementById('root')
 ReactDOM.render(
     <div>
-        <CompoenenteClasse valor="Teste!"/>
+        <Contador />
     </div>
 , elemento)
+
+// ReactDOM.render(
+//     <div>
+//         <CompoenenteClasse valor="Teste!"/>
+//     </div>
+// , elemento)
 
 // const elemento = document.getElementById('root')
 // ReactDOM.render(
