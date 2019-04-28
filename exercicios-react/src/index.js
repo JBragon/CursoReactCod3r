@@ -14,7 +14,7 @@ import Contador from './componentes/Contador'
 const elemento = document.getElementById('root')
 ReactDOM.render(
     <div>
-        <Contador />
+        <Contador numeroInicial={0}/>
     </div>
 , elemento)
 
