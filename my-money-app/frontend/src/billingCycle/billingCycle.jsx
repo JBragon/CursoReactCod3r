@@ -3,18 +3,18 @@ import React, { Component } from 'react'
 import ContentHeader from '../common/template/contentHeader'
 import Contet from '../common/template/content'
 
-class BillinCycles extends Component {
+class BillingCycles extends Component {
 
     render(){
         return (
             <div>
-                <ContentHeader title='BillinCycles' small='Versão 1.0' />
+                <ContentHeader title='Ciclos de Pagamento' small='Cadastro' />
                 <Contet>
-                    BillinCycles
+                    Ciclos de Pagamento
                 </Contet>
             </div>
         )
     }
 }
 
-export default BillinCycles
+export default BillingCycles
