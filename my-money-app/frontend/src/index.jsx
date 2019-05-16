@@ -8,6 +8,7 @@ import thunk from 'redux-thunk'
 
 import App from './main/app'
 import reducers from './main/reducers'
+import Routes from './main/routes'
 
 //Habilitando o dev tools do plugin do redux
 const devTools = window.__REDUX_DEVTOOLS_EXTENSION__  && window.__REDUX_DEVTOOLS_EXTENSION__()
@@ -16,6 +17,6 @@ const store = applyMiddleware(promise, multi, thunk)(createStore)(reducers, devT
 
 ReactDOM.render(
     <Provider store={store}>
-        <App />
+        <Routes />
     </Provider>
 , document.getElementById('app'))
